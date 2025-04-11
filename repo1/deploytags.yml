@@ -1,0 +1,40 @@
+- hosts: all
+  become: true
+  collections:
+    - ansible.builtin
+  tasks: 
+  - name: install updates (Lnux Mint)
+    tags: always
+    apt:
+      upgrade: dist 
+      update_cache: yes
+    when: ansible_distribution == "Linux Mint"
+
+  - name: install updates (Linux Fedora)
+    tags: always
+    dnf:
+      update_only: yes
+      update_cache: yes
+    when: ansible_distribution == "Fedora"
+
+- hosts: linux
+  become: true
+  tasks:
+  - name: install apache2 & PHP packages for Linux Mint
+    tags: Linux Mint,apache
+    apt:
+      name:
+        - apache2
+        - libapache2-mod-php 
+      state: latest
+    when: ansible_distribution == "Linux Mint"
+
+  - name: install httpd & php packages for Fedora/Centos
+    tags: fedora, httpd
+    dnf:
+      name:
+        - httpd
+        - php
+      state: latest
+    when: ansible_distribution == "Fedora"
+  
