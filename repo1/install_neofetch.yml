@@ -1,0 +1,23 @@
+- name: Install and run neofetch command
+  hosts: all
+  gather_facts: false
+  become: true
+  collections:
+    - ansible.builtin
+  tasks:
+    - name: Install neofetch package
+      package: 
+        name: neofetch
+        state: present
+    
+    - name: Run neofetch command and save output
+      shell: neofetch
+      register: neofetch_output
+      delegate_to: "{{ inventory_hostname }}" # Delegate the task to each host individually
+    
+    - name: Save neofetch output to file on Control Machine 
+      local_action: # Run action on the control machine, not the target hosts
+        module: copy
+        content: "{{ neofetch_output.stdout }}" # Copy the output of the neofetch command
+        dest: "./neofetch_output_{{ inventory_hostname }}.txt" #Save the output to a file, appending the hostname of each client node to the filename in the current working directory
+        

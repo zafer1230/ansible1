@@ -1,0 +1,40 @@
+[?25l[?7l[37m[0m[1m             ...-:::::-...
+[37m[0m[1m          .-MMMMMMMMMMMMMMM-.
+      .-MMMM[0m[32m[1m`..-:::::::-..`[37m[0m[1mMMMM-.
+    .:MMMM[0m[32m[1m.:MMMMMMMMMMMMMMM:.[37m[0m[1mMMMM:.
+   -MMM[0m[32m[1m-M---MMMMMMMMMMMMMMMMMMM.[37m[0m[1mMMM-
+ `:MMM[0m[32m[1m:MM`  :MMMM:....::-...-MMMM:[37m[0m[1mMMM:`
+ :MMM[0m[32m[1m:MMM`  :MM:`  ``    ``  `:MMM:[37m[0m[1mMMM:
+.MMM[0m[32m[1m.MMMM`  :MM.  -MM.  .MM-  `MMMM.[37m[0m[1mMMM.
+:MMM[0m[32m[1m:MMMM`  :MM.  -MM-  .MM:  `MMMM-[37m[0m[1mMMM:
+:MMM[0m[32m[1m:MMMM`  :MM.  -MM-  .MM:  `MMMM:[37m[0m[1mMMM:
+:MMM[0m[32m[1m:MMMM`  :MM.  -MM-  .MM:  `MMMM-[37m[0m[1mMMM:
+.MMM[0m[32m[1m.MMMM`  :MM:--:MM:--:MM:  `MMMM.[37m[0m[1mMMM.
+ :MMM[0m[32m[1m:MMM-  `-MMMMMMMMMMMM-`  -MMM-[37m[0m[1mMMM:
+  :MMM[0m[32m[1m:MMM:`                `:MMM:[37m[0m[1mMMM:
+   .MMM[0m[32m[1m.MMMM:--------------:MMMM.[37m[0m[1mMMM.
+     '-MMMM[0m[32m[1m.-MMMMMMMMMMMMMMM-.[37m[0m[1mMMMM-'
+       '.-MMMM[0m[32m[1m``--:::::--``[37m[0m[1mMMMM-.'
+[37m[0m[1m            '-MMMMMMMMMMMMM-'
+[37m[0m[1m               ``-:::::-``[0m
+[19A[9999999D[43C[0m[1m[32m[1mroot[0m@[32m[1mMachine2[0m 
+[43C[0m-------------[0m 
+[43C[0m[32m[1mOS[0m[0m:[0m Linux Mint 21.1 x86_64[0m 
+[43C[0m[32m[1mHost[0m[0m:[0m KVM/QEMU (Standard PC (i440FX + PIIX, 1996) pc-i440fx-2.12)[0m 
+[43C[0m[32m[1mKernel[0m[0m:[0m 5.15.0-135-generic[0m 
+[43C[0m[32m[1mUptime[0m[0m:[0m 1 hour, 43 mins[0m 
+[43C[0m[32m[1mPackages[0m[0m:[0m 2155 (dpkg)[0m 
+[43C[0m[32m[1mShell[0m[0m:[0m bash 5.1.16[0m 
+[43C[0m[32m[1mResolution[0m[0m:[0m 1024x768[0m 
+[43C[0m[32m[1mCPU[0m[0m:[0m Intel Xeon E7- 4870 (2) @ 1.064GHz[0m 
+[43C[0m[32m[1mGPU[0m[0m:[0m 00:02.0 Vendor 1234 Device 1111[0m 
+[43C[0m[32m[1mMemory[0m[0m:[0m 293MiB / 3911MiB[0m 
+
+[43C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[43C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+
+
+
+[?25h[?7h
