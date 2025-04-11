@@ -1,2 +1,8 @@
-# ansible1
-Ansible playbook repository 1
+ _____________________________
+< I am the master of Ansible. >
+ -----------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
