@@ -1,0 +1,15 @@
+- hosts: linux
+  become: true
+  gather_facts: false
+  collections:
+    - ansible.builtin
+  tasks:
+    - name: retrieve the contents of a file
+      command: cat /var/www/html/index.html
+      register: file_output
+      become: true
+    
+    - name: View the file contents
+      debug:
+        msg: "{{file_output.stdout .split('\n') }}"
+        

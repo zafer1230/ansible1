@@ -1,0 +1,16 @@
+- hosts: webserver1
+  become: true
+  gather_facts: false
+  collections:
+    - ansible.builtin
+  tasks:
+    - name: Install unzip
+      package:
+        name: unzip 
+    - name: Install Terraform
+      unarchive:
+        src: https://releases.hashicorp.com/terraform/0.15.5/terraform_0.15.5_linux_amd64.zip
+        dest: /usr/local/bin
+        remote_src: yes
+        owner: root
+        group: root
